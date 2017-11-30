@@ -97,6 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@font-face {
+    font-family: Horse;
+    src: url('../fonts/horseshoes.ttf');
+}
 
 .header {
     background-color:black;
@@ -104,6 +108,11 @@ textarea {
     text-align:center;
     padding:5px;
     display: block;
+}
+
+.header h1 {
+
+    font-family: Horse, "Courier New";
 }
 
 .footer {
@@ -114,7 +123,7 @@ textarea {
 }
 
 .tab-content {
-    min-height: 100em;
+    min-height: 900px;
 }
 
 #wrapper {
@@ -202,12 +211,14 @@ textarea {
 }
 
 .main-video {
-    text-align: center;
-    margin-bottom: 1.3em;
+    text-align: right;
+    margin-right: 3.75em;
+    margin-bottom: 3em;
 }
 
 .cb-video-section {
-    text-align: center;
+    text-align: right;
+    margin-right: 4.65em;
 }
 
 .cb-video

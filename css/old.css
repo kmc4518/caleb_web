@@ -61,3 +61,8 @@
     background-color: #4CAF50;
     color: white;
 }
+
+@font-face {
+    font-family: myFirstFont;
+    src: url('/fonts/horseshoes.otf');
+}
