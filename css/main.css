@@ -129,9 +129,7 @@ textarea {
 
 .tab-content {
     min-height: 550px;
-    overflow: hidden;
-    position: relative;
-    width: 100%;
+
 
 }
 
@@ -151,7 +149,7 @@ textarea {
 }
 
 .left-nav ul {
-    padding-top:10px;
+    padding-top:11px;
 
 }
 
@@ -178,23 +176,20 @@ textarea {
     width: 80%;
     text-align: center;
     background-color: blue;
-    height: 100%;
-    overflow: hidden;
 }
 
 .cb-video
 {
     display: inline-block;
     vertical-align: middle;
-    padding: 100px 10px 100px 10px;
+    padding: 100px 25px 100px 25px;
 }
 
 .cb-video-info {
     background-color: red;
     width: 20%;
     float: left;
-    height: 100%;
-    overflow: hidden;
+    height: 661px;
 }
 
 
