@@ -18,7 +18,7 @@ $(document).on('click', '.cb-video', function (event) {
 
     var videoId = thumbnail[0];
 
-    $(".main-video > iframe").attr("src", "https://player.vimeo.com/video/" + videoId + "?title=0&portrait=0&badge=0")
+    $(".cb-main-video > iframe").attr("src", "https://player.vimeo.com/video/" + videoId + "?title=0&portrait=0&badge=0")
 
 });
 

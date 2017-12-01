@@ -113,79 +113,35 @@ textarea {
 .header h1 {
 
     font-family: Horse, "Courier New";
+    font-size: 54px;
 }
 
 .footer {
+    font-family: Horse, "Courier New";
+    font-size: 54px;
     background-color:black;
     color:white;
     clear:both;
     text-align:center;
 }
 
+
+
 .tab-content {
-    min-height: 900px;
+    min-height: 550px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+
 }
 
-#wrapper {
+.wrapper {
     width: 70%;
     box-sizing: border-box;
     margin: 0 15%;
     background: #f6eeb3;
     display: inline-block;
 }
-
-#right-nav {
-    width: 375px;
-}
-
-#right-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-#right-nav li {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
-    border-bottom: 1px solid #888;
-    float: left;
-}
-
-#right-nav a {
-    text-decoration: none;
-    display: block;
-    transition: .3s background-color;
-    color: white;
-    text-align: center;
-}
-
-#right-nav a:hover {
-    background-color: #005f5f;
-}
-
-#right-nav a.active {
-    background-color: #fff;
-    color: #444;
-    cursor: default;
-}
-
-@media screen and (min-width: 600px) {
-    #right-nav li {
-        width: 120px;
-        border-bottom: none;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-    }
-
-    /* Option 1 - Display Inline */
-    #right-nav li {
-        display: inline-block;
-        margin-right: -4px;
-    }
-}
-
 
 .left-nav {
     box-sizing: border-box;
@@ -210,22 +166,35 @@ textarea {
     text-decoration: none;
 }
 
-.main-video {
-    text-align: right;
-    margin-right: 3.75em;
-    margin-bottom: 3em;
+.cb-main-video {
+    float: left;
+    background: green;
+    width: 80%;
+    text-align: center
 }
 
 .cb-video-section {
-    text-align: right;
-    margin-right: 4.65em;
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: blue;
+    height: 100%;
+    overflow: hidden;
 }
 
 .cb-video
 {
     display: inline-block;
-    margin-left: 2em;
-    margin-right: 2em;
+    vertical-align: middle;
+    padding: 100px 10px 100px 10px;
+}
+
+.cb-video-info {
+    background-color: red;
+    width: 20%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
 }
 
 
