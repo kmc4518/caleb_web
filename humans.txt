@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Kevin Cotter -- Web Designer -- <twitter>
 
 # THANKS
 
