@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height:100%;
 }
 
 /*
@@ -107,25 +108,21 @@ textarea {
     src: url('../fonts/horseshoeslemonade.ttf');
 }
 
+.bg {
+    background-image: url("../img/fullbackground.png");
+    height:100%;
+}
+
 .header {
-    background-color:black;
-    color:white;
+    height: 157px;
     text-align:center;
     padding:5px;
     display: block;
 }
 
-.header h1 {
-
-    font-family: Horse, "Courier New";
-    font-size: 54px;
-}
-
 .footer {
     font-family: Horse, "Courier New";
     font-size: 54px;
-    background-color:black;
-    color:white;
     clear:both;
     text-align:center;
     overflow: hidden;
@@ -136,15 +133,12 @@ textarea {
 .tab-content {
     height: 600px;
     clear: both;
-
-
 }
 
 .wrapper {
     width: 70%;
     box-sizing: border-box;
     margin: 0 15%;
-    background: #f6eeb3;
     display: inline-block;
 }
 
