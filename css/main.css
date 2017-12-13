@@ -102,6 +102,11 @@ textarea {
     src: url('../fonts/horseshoes.ttf');
 }
 
+@font-face{
+    font-family: altHorse;
+    src: url('../fonts/horseshoeslemonade.ttf');
+}
+
 .header {
     background-color:black;
     color:white;
@@ -123,12 +128,14 @@ textarea {
     color:white;
     clear:both;
     text-align:center;
+    overflow: hidden;
 }
 
 
 
 .tab-content {
-    min-height: 550px;
+    height: 600px;
+    clear: both;
 
 
 }
@@ -168,7 +175,7 @@ textarea {
     float: left;
     background: green;
     width: 80%;
-    text-align: center
+    text-align: center;
 }
 
 .cb-video-section {
@@ -182,7 +189,7 @@ textarea {
 {
     display: inline-block;
     vertical-align: middle;
-    padding: 100px 25px 100px 25px;
+    padding: 25px 25px 25px 25px;
 }
 
 .cb-video-info {
