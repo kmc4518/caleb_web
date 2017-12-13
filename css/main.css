@@ -15,6 +15,8 @@ html {
     font-size: 1em;
     line-height: 1.4;
     height:100%;
+
+    font-family: Horse, "Courier New";
 }
 
 /*
@@ -138,11 +140,6 @@ textarea {
     clear: both;
 }
 
-.tab-content-filler{
-    height: 600px;
-
-}
-
 .wrapper {
     width: 70%;
     box-sizing: border-box;
@@ -173,18 +170,27 @@ textarea {
     text-decoration: none;
 }
 
+.section-title {
+    padding: 2em 0em 0em 2em;
+}
+
 .cb-main-video {
     float: left;
-    background: green;
-    width: 80%;
+    width: 65%;
+    text-align: center;
+}
+.cb-only-video {
+    float: left;
+    width: 100%;
     text-align: center;
 }
 
 .cb-video-section {
     display: inline-block;
-    width: 80%;
     text-align: center;
-    background-color: blue;
+
+    width: 65%;
+    float: left;
 }
 
 .cb-video
@@ -195,10 +201,11 @@ textarea {
 }
 
 .cb-video-info {
-    background-color: red;
-    width: 20%;
+    width: 30%;
     float: left;
     height: 661px;
+    padding: 2em 0em 0em 2em;
+    font-size: 18px;
 }
 
 
