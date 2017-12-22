@@ -14,8 +14,6 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    height:100%;
-
     font-family: Horse, "Courier New";
 }
 
@@ -117,10 +115,10 @@ textarea {
 }
 
 .header {
-    height: 168px;
+    height: 162px;
     text-align:center;
-    padding:5px;
     display: block;
+    background-image: url("../img/header.png");
 }
 
 .footer {
@@ -133,10 +131,35 @@ textarea {
     overflow: hidden;
 }
 
-
-
 .tab-content {
+    width: 1352px;
     height: 600px;
+    clear: both;
+}
+
+/* #4286f5 blue*/
+/* #edf439 yellow*/
+/* #f14a4a red*/
+
+
+#section-reals {
+    background-color: #edf439;
+}
+
+#section-films {
+    background-color: #f14a4a;
+}
+
+#section-storyboard {
+    background-color: #4286f5;
+}
+
+#section-character {
+    background-color: #edf439;
+}
+
+#section-other {
+    height: 500px;
     clear: both;
 }
 
@@ -149,13 +172,15 @@ textarea {
 
 .left-nav {
     box-sizing: border-box;
+    height: 290px;
     width: 15%;
     position: fixed;
-    background: #abe0f9;
+    background-image: url("../img/elevator.png");
+    background-repeat: no-repeat;
 }
 
 .left-nav ul {
-    padding-top:11px;
+    padding-top:50px;
 
 }
 
@@ -163,7 +188,6 @@ textarea {
     list-style: none;
     font-size: 1.1rem;
     font-weight: bold;
-    margin-bottom: 1.1em;
 }
 
 .left-nav li a {
@@ -203,11 +227,10 @@ textarea {
 .cb-video-info {
     width: 30%;
     float: left;
-    height: 661px;
+    height: 400px;
     padding: 2em 0em 0em 2em;
     font-size: 18px;
 }
-
 
 /* ==========================================================================
    Helper classes
